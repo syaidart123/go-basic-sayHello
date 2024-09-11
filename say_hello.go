@@ -1,5 +1,5 @@
 package appsayhello
 
-func SayHello() string {
-	return "hello world v2"
+func SayHello(name string) string {
+	return "hello world v2" + name
 }
